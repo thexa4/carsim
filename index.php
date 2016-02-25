@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Ethics</title>
-    <!--<link rel="stylesheet" href="style.css">-->
+<!--  This code is in public domain  -->
 <script src="hexi.min.js"></script>
   </head>
   <body>
