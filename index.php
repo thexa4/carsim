@@ -217,31 +217,31 @@ function setup() {
     g.makeInteractive(repulsemin);
     g.makeInteractive(offsetmin);
 
-    laneplus.tap = () => {
+    laneplus.tap = function() {
         w_laneholding += 0.2;
     };
-    lanemin.tap = () => {
+    lanemin.tap = function() {
         w_laneholding -= 0.2;
     }
 
-    speedplus.tap = () => {
+    speedplus.tap = function() {
         w_speed += 0.1;
     }
-    speedmin.tap = () => {
+    speedmin.tap = function() {
         w_speed += -0.1;
     }
     
-    repulseplus.tap = () => {
+    repulseplus.tap = function() {
         w_repulsion += 0.2;
     }
-    repulsemin.tap = () => {
+    repulsemin.tap = function() {
         w_repulsion -= 0.2;
     }
 
-    offsetplus.tap = () => {
+    offsetplus.tap = function() {
         w_repulse_offset += 5;
     }
-    offsetmin.tap = () => {
+    offsetmin.tap = function() {
         w_repulse_offset -= 5;
     }
 
